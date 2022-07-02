@@ -1,0 +1,56 @@
+{
+  "uid" : "b6405d74e74162cc",
+  "name" : "successfulLoginByLoginButton",
+  "fullName" : "ru.yandex.praktikum.LoginTest.successfulLoginByLoginButton",
+  "historyId" : "598b873f60de59826fbafd7b278f2d20",
+  "time" : {
+    "start" : 1656766813868,
+    "stop" : 1656766816502,
+    "duration" : 2634
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulLoginByLoginButton"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9935@MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6405d74e74162cc.json",
+  "parameterValues" : [ ]
+}

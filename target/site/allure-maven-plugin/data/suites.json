@@ -1,0 +1,164 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.yandex.praktikum.LoginTest",
+    "children" : [ {
+      "name" : "successfulLoginByRegisterView",
+      "uid" : "f5f84ed624c91acb",
+      "parentUid" : "acf86201ee4feaf724d5b1ba5fd29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766800382,
+        "stop" : 1656766813760,
+        "duration" : 13378
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLoginByLoginButton",
+      "uid" : "b6405d74e74162cc",
+      "parentUid" : "acf86201ee4feaf724d5b1ba5fd29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766813868,
+        "stop" : 1656766816502,
+        "duration" : 2634
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLoginByForgotPasswordView",
+      "uid" : "5dca960548e9412b",
+      "parentUid" : "acf86201ee4feaf724d5b1ba5fd29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766816505,
+        "stop" : 1656766818895,
+        "duration" : 2390
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLoginByAccountButton",
+      "uid" : "9b39a0c1662e9eec",
+      "parentUid" : "acf86201ee4feaf724d5b1ba5fd29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766818898,
+        "stop" : 1656766821343,
+        "duration" : 2445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "acf86201ee4feaf724d5b1ba5fd29b88"
+  }, {
+    "name" : "ru.yandex.praktikum.ConstructorTest",
+    "children" : [ {
+      "name" : "sectionsSelect",
+      "uid" : "dee64598648f9649",
+      "parentUid" : "fdaab6af41e7b03a1a8766e4d7e22a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766821346,
+        "stop" : 1656766822193,
+        "duration" : 847
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fdaab6af41e7b03a1a8766e4d7e22a06"
+  }, {
+    "name" : "ru.yandex.praktikum.LoggedUserTest",
+    "children" : [ {
+      "name" : "logout",
+      "uid" : "8b3679022a08937d",
+      "parentUid" : "768ac894216ccd26af041fa103fc71f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766822196,
+        "stop" : 1656766825149,
+        "duration" : 2953
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "accountTransitionFromConstructor",
+      "uid" : "6e72577d8c7e2be1",
+      "parentUid" : "768ac894216ccd26af041fa103fc71f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766825151,
+        "stop" : 1656766828066,
+        "duration" : 2915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "constructorTransitionFromAccountByConstructorLink",
+      "uid" : "c37bc11ec3ebecd6",
+      "parentUid" : "768ac894216ccd26af041fa103fc71f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766828067,
+        "stop" : 1656766830706,
+        "duration" : 2639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "constructorTransitionFromAccountByLogo",
+      "uid" : "b293f66a0c254d04",
+      "parentUid" : "768ac894216ccd26af041fa103fc71f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766830708,
+        "stop" : 1656766833355,
+        "duration" : 2647
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "768ac894216ccd26af041fa103fc71f0"
+  }, {
+    "name" : "ru.yandex.praktikum.RegisterTest",
+    "children" : [ {
+      "name" : "successfulRegistration",
+      "uid" : "66e9c56b6b5ecf44",
+      "parentUid" : "78bf235a8d490e75ec3e74c25135d270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766833357,
+        "stop" : 1656766835446,
+        "duration" : 2089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shortPassword",
+      "uid" : "ff4a0a60af3e319d",
+      "parentUid" : "78bf235a8d490e75ec3e74c25135d270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656766835447,
+        "stop" : 1656766836469,
+        "duration" : 1022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "78bf235a8d490e75ec3e74c25135d270"
+  } ]
+}

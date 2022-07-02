@@ -1,0 +1,111 @@
+[ {
+  "uid" : "b293f66a0c254d04",
+  "name" : "constructorTransitionFromAccountByLogo",
+  "time" : {
+    "start" : 1656766830708,
+    "stop" : 1656766833355,
+    "duration" : 2647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6405d74e74162cc",
+  "name" : "successfulLoginByLoginButton",
+  "time" : {
+    "start" : 1656766813868,
+    "stop" : 1656766816502,
+    "duration" : 2634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dee64598648f9649",
+  "name" : "sectionsSelect",
+  "time" : {
+    "start" : 1656766821346,
+    "stop" : 1656766822193,
+    "duration" : 847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5f84ed624c91acb",
+  "name" : "successfulLoginByRegisterView",
+  "time" : {
+    "start" : 1656766800382,
+    "stop" : 1656766813760,
+    "duration" : 13378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b39a0c1662e9eec",
+  "name" : "successfulLoginByAccountButton",
+  "time" : {
+    "start" : 1656766818898,
+    "stop" : 1656766821343,
+    "duration" : 2445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c37bc11ec3ebecd6",
+  "name" : "constructorTransitionFromAccountByConstructorLink",
+  "time" : {
+    "start" : 1656766828067,
+    "stop" : 1656766830706,
+    "duration" : 2639
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b3679022a08937d",
+  "name" : "logout",
+  "time" : {
+    "start" : 1656766822196,
+    "stop" : 1656766825149,
+    "duration" : 2953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66e9c56b6b5ecf44",
+  "name" : "successfulRegistration",
+  "time" : {
+    "start" : 1656766833357,
+    "stop" : 1656766835446,
+    "duration" : 2089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e72577d8c7e2be1",
+  "name" : "accountTransitionFromConstructor",
+  "time" : {
+    "start" : 1656766825151,
+    "stop" : 1656766828066,
+    "duration" : 2915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff4a0a60af3e319d",
+  "name" : "shortPassword",
+  "time" : {
+    "start" : 1656766835447,
+    "stop" : 1656766836469,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dca960548e9412b",
+  "name" : "successfulLoginByForgotPasswordView",
+  "time" : {
+    "start" : 1656766816505,
+    "stop" : 1656766818895,
+    "duration" : 2390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,56 @@
+{
+  "uid" : "b293f66a0c254d04",
+  "name" : "constructorTransitionFromAccountByLogo",
+  "fullName" : "ru.yandex.praktikum.LoggedUserTest.constructorTransitionFromAccountByLogo",
+  "historyId" : "a02e549a46c84d184a9274d55e07713",
+  "time" : {
+    "start" : 1656766830708,
+    "stop" : 1656766833355,
+    "duration" : 2647
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.LoggedUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "constructorTransitionFromAccountByLogo"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.LoggedUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9935@MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b293f66a0c254d04.json",
+  "parameterValues" : [ ]
+}

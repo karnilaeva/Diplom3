@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro.local",
+    "children" : [ {
+      "name" : "9935@MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "accountTransitionFromConstructor",
+        "uid" : "6e72577d8c7e2be1",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766825151,
+          "stop" : 1656766828066,
+          "duration" : 2915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulLoginByRegisterView",
+        "uid" : "f5f84ed624c91acb",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766800382,
+          "stop" : 1656766813760,
+          "duration" : 13378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "constructorTransitionFromAccountByLogo",
+        "uid" : "b293f66a0c254d04",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766830708,
+          "stop" : 1656766833355,
+          "duration" : 2647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulLoginByLoginButton",
+        "uid" : "b6405d74e74162cc",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766813868,
+          "stop" : 1656766816502,
+          "duration" : 2634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shortPassword",
+        "uid" : "ff4a0a60af3e319d",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766835447,
+          "stop" : 1656766836469,
+          "duration" : 1022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulLoginByForgotPasswordView",
+        "uid" : "5dca960548e9412b",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766816505,
+          "stop" : 1656766818895,
+          "duration" : 2390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulRegistration",
+        "uid" : "66e9c56b6b5ecf44",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766833357,
+          "stop" : 1656766835446,
+          "duration" : 2089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "constructorTransitionFromAccountByConstructorLink",
+        "uid" : "c37bc11ec3ebecd6",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766828067,
+          "stop" : 1656766830706,
+          "duration" : 2639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logout",
+        "uid" : "8b3679022a08937d",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766822196,
+          "stop" : 1656766825149,
+          "duration" : 2953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sectionsSelect",
+        "uid" : "dee64598648f9649",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766821346,
+          "stop" : 1656766822193,
+          "duration" : 847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulLoginByAccountButton",
+        "uid" : "9b39a0c1662e9eec",
+        "parentUid" : "5a3a31aa866a036dcefe902e285d124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656766818898,
+          "stop" : 1656766821343,
+          "duration" : 2445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a3a31aa866a036dcefe902e285d124c"
+    } ],
+    "uid" : "e792a61be548a1d4ff631ca281f20c17"
+  } ]
+}
