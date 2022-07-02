@@ -4,6 +4,9 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
+
 public class LoginPage {
 
     // локатор поля "Email"
@@ -28,5 +31,9 @@ public class LoginPage {
 
     public void clickLoginButton() {
         loginButton.click();
+    }
+
+    public void assertThatThisIsLoginPage() {
+        $(".Auth_login__3hAey").shouldBe(visible);
     }
 }
