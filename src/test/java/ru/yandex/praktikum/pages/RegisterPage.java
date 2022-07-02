@@ -22,6 +22,10 @@ public class RegisterPage {
     @FindBy(how = How.XPATH, using = "//button[contains(@class, 'button_button__33qZ0')]")
     private SelenideElement registerButton;
 
+    // локатор кнопки "Войти"
+    @FindBy(how = How.XPATH, using = "//a[contains(@href, '/login')]")
+    private SelenideElement loginLink;
+
     public void setName(String name) {
         nameField.setValue(name);
     }
@@ -38,4 +42,7 @@ public class RegisterPage {
         registerButton.click();
     }
 
+    public void clickLoginLink() {
+        loginLink.click();
+    }
 }
