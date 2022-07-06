@@ -1,5 +1,6 @@
 package ru.yandex.praktikum;
 
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -23,6 +24,7 @@ public class RegisterTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Успешная регистрация")
     public void successfulRegistration() {
         User user = Util.randomUser();
 
@@ -38,6 +40,7 @@ public class RegisterTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Неуспешная регистрация с коротким паролем")
     public void shortPassword() {
         User user = Util.randomUser("12345");
 

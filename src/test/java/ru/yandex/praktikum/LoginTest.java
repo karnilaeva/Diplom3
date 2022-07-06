@@ -1,5 +1,6 @@
 package ru.yandex.praktikum;
 
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -29,6 +30,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Успешный вход по кнопке 'Войти в аккаунт'")
     public void successfulLoginByLoginButton() {
         MainPage mainPage = open("https://stellarburgers.nomoreparties.site", MainPage.class);
         mainPage.clickLoginButton();
@@ -37,6 +39,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Успешный вход по кнопке 'Личный кабинет'")
     public void successfulLoginByAccountButton() {
         MainPage mainPage = open("https://stellarburgers.nomoreparties.site", MainPage.class);
         mainPage.clickAccountButton();
@@ -45,6 +48,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Успешный вход из окна регистрации")
     public void successfulLoginByRegisterView() {
         RegisterPage registerPage = open("https://stellarburgers.nomoreparties.site/register", RegisterPage.class);
         registerPage.clickLoginLink();
@@ -53,6 +57,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Успешный вход из окна восстановления пароля")
     public void successfulLoginByForgotPasswordView() {
         ForgotPasswordPage forgotPasswordPage = open("https://stellarburgers.nomoreparties.site/forgot-password", ForgotPasswordPage.class);
         forgotPasswordPage.clickLoginLink();

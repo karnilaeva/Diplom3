@@ -1,5 +1,6 @@
 package ru.yandex.praktikum;
 
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -38,6 +39,7 @@ public class LoggedUserTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Переход в профиль из конструктора")
     public void accountTransitionFromConstructor() {
         MainPage mainPage = open("https://stellarburgers.nomoreparties.site/login", MainPage.class);
         mainPage.clickAccountButton();
@@ -47,6 +49,7 @@ public class LoggedUserTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Переход в конструктор из профиля с помощью ссылки")
     public void constructorTransitionFromAccountByConstructorLink() {
         AccountPage accountPage = open("https://stellarburgers.nomoreparties.site/account", AccountPage.class);
         accountPage.clickConstructorLink();
@@ -56,6 +59,7 @@ public class LoggedUserTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Переход в конструктор из профиля с логотипа")
     public void constructorTransitionFromAccountByLogo() {
         AccountPage accountPage = open("https://stellarburgers.nomoreparties.site/account", AccountPage.class);
         accountPage.clickLogo();
@@ -65,6 +69,7 @@ public class LoggedUserTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("Выход")
     public void logout() {
         AccountPage accountPage = open("https://stellarburgers.nomoreparties.site/account", AccountPage.class);
         accountPage.clickLogoutLink();
