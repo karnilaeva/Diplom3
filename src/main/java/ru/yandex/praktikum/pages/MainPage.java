@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$;
 
 public class MainPage {
 
@@ -29,6 +28,10 @@ public class MainPage {
     @FindBy(how = How.XPATH, using = "(//div[contains(@class, 'tab_tab__1SPyG')])[3]")
     private SelenideElement fillingsLink;
 
+    // локатор контейнера
+    @FindBy(how = How.CLASS_NAME, using = "BurgerIngredients_ingredients__1N8v2")
+    private SelenideElement container;
+
     public SelenideElement getLoginButton() {
         return loginButton;
     }
@@ -46,7 +49,7 @@ public class MainPage {
     }
 
     public void clickBunsLink() {
-        bunsLink.$("span").click();
+        bunsLink.click();
     }
 
     public SelenideElement getSousesLink() {
@@ -54,7 +57,7 @@ public class MainPage {
     }
 
     public void clickSousesLink() {
-        sousesLink.$("span").click();
+        sousesLink.click();
     }
 
     public SelenideElement getFillingsLink() {
@@ -62,11 +65,11 @@ public class MainPage {
     }
 
     public void clickFillingsLink() {
-        fillingsLink.$("span").click();
+        fillingsLink.click();
     }
 
     public void assertThatThisIsMainPage() {
-        $(".BurgerIngredients_ingredients__1N8v2").shouldBe(visible);
+        container.shouldBe(visible);
     }
 
 }

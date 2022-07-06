@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
 
@@ -21,6 +20,10 @@ public class LoginPage {
     @FindBy(how = How.XPATH, using = "//button[contains(@class, 'button_button__33qZ0')]")
     private SelenideElement loginButton;
 
+    // локатор контейнера
+    @FindBy(how = How.CLASS_NAME, using = "Auth_login__3hAey")
+    private SelenideElement container;
+
     public void setEmail(String name) {
         emailField.setValue(name);
     }
@@ -34,6 +37,6 @@ public class LoginPage {
     }
 
     public void assertThatThisIsLoginPage() {
-        $(".Auth_login__3hAey").shouldBe(visible);
+        container.shouldBe(visible);
     }
 }

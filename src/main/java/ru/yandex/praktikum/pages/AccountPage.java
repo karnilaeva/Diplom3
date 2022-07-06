@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$;
 
 public class AccountPage {
 
@@ -21,12 +20,16 @@ public class AccountPage {
     @FindBy(how = How.XPATH, using = "//button[text()='Выход']")
     private SelenideElement logoutLink;
 
+    // локатор контейнера
+    @FindBy(how = How.CLASS_NAME, using = "Account_account__vgk_w")
+    private SelenideElement container;
+
     public void clickConstructorLink() {
         constructorLink.click();
     }
 
     public void assertThatThisIsAccountPage() {
-        $(".Account_account__vgk_w").shouldBe(visible);
+        container.shouldBe(visible);
     }
 
     public void clickLogo() {
