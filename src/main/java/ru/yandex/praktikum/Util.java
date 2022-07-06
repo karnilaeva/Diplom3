@@ -22,7 +22,7 @@ public class Util {
         return new User(email, password, "John");
     }
 
-    public static Response createUser(User user) {
+    public static void createUser(User user) {
         System.out.println("Trying to create a user. Email: " + user.getEmail() + ", Password: " + user.getPassword() + ", Name: " + user.getName());
         Response response = given()
                 .header("Content-type", "application/json")
@@ -33,7 +33,6 @@ public class Util {
         } else {
             System.out.println("Response code after creating user is " + response.getStatusCode());
         }
-        return response;
     }
 
     public static void deleteUser(User user) {

@@ -42,19 +42,16 @@
              <groupId>com.codeborne</groupId>
              <artifactId>selenide</artifactId>
              <version>6.6.3</version>
-             <scope>test</scope>
          </dependency>
          <dependency>
              <groupId>com.codeborne</groupId>
              <artifactId>selenide-proxy</artifactId>
              <version>6.6.3</version>
-             <scope>test</scope>
          </dependency>
          <dependency>
              <groupId>io.rest-assured</groupId>
              <artifactId>rest-assured</artifactId>
              <version>5.1.1</version>
-             <scope>test</scope>
          </dependency>
          <dependency>
              <groupId>io.qameta.allure</groupId>
