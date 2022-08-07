@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.yandex.praktikum",
+    "children" : [ {
+      "name" : "successfulLoginByRegisterView",
+      "uid" : "19234521d794c37e",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134322193,
+        "stop" : 1657134333765,
+        "duration" : 11572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLoginByLoginButton",
+      "uid" : "fabe18b9f5090de8",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134333867,
+        "stop" : 1657134336452,
+        "duration" : 2585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLoginByForgotPasswordView",
+      "uid" : "10bb5efbc235ce60",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134336456,
+        "stop" : 1657134338847,
+        "duration" : 2391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLoginByAccountButton",
+      "uid" : "62061392650e744e",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134338849,
+        "stop" : 1657134341983,
+        "duration" : 3134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "sectionsSelect",
+      "uid" : "cb150e479af491b7",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134341986,
+        "stop" : 1657134342779,
+        "duration" : 793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logout",
+      "uid" : "db8bf463b8bddd88",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134342782,
+        "stop" : 1657134345726,
+        "duration" : 2944
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "accountTransitionFromConstructor",
+      "uid" : "524d9f50e0cb76d",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134345728,
+        "stop" : 1657134348600,
+        "duration" : 2872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "constructorTransitionFromAccountByConstructorLink",
+      "uid" : "89f0ff14d23595ba",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134348603,
+        "stop" : 1657134351282,
+        "duration" : 2679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "constructorTransitionFromAccountByLogo",
+      "uid" : "aba6babc78d7862a",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134351285,
+        "stop" : 1657134354010,
+        "duration" : 2725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulRegistration",
+      "uid" : "3162dc1263771772",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134354015,
+        "stop" : 1657134356212,
+        "duration" : 2197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shortPassword",
+      "uid" : "be637ae0a3a6d23c",
+      "parentUid" : "19a7b3ae45fa8a48b3c603dd6cd5f0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657134356214,
+        "stop" : 1657134357195,
+        "duration" : 981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.yandex.praktikum"
+  } ]
+}

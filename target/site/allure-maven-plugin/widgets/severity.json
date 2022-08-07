@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3162dc1263771772",
+  "name" : "Успешная регистрация",
+  "time" : {
+    "start" : 1657134354015,
+    "stop" : 1657134356212,
+    "duration" : 2197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db8bf463b8bddd88",
+  "name" : "Выход",
+  "time" : {
+    "start" : 1657134342782,
+    "stop" : 1657134345726,
+    "duration" : 2944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aba6babc78d7862a",
+  "name" : "Переход в конструктор из профиля с логотипа",
+  "time" : {
+    "start" : 1657134351285,
+    "stop" : 1657134354010,
+    "duration" : 2725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19234521d794c37e",
+  "name" : "Успешный вход из окна регистрации",
+  "time" : {
+    "start" : 1657134322193,
+    "stop" : 1657134333765,
+    "duration" : 11572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be637ae0a3a6d23c",
+  "name" : "Неуспешная регистрация с коротким паролем",
+  "time" : {
+    "start" : 1657134356214,
+    "stop" : 1657134357195,
+    "duration" : 981
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb150e479af491b7",
+  "name" : "Выбор секций",
+  "time" : {
+    "start" : 1657134341986,
+    "stop" : 1657134342779,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62061392650e744e",
+  "name" : "Успешный вход по кнопке 'Личный кабинет'",
+  "time" : {
+    "start" : 1657134338849,
+    "stop" : 1657134341983,
+    "duration" : 3134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89f0ff14d23595ba",
+  "name" : "Переход в конструктор из профиля с помощью ссылки",
+  "time" : {
+    "start" : 1657134348603,
+    "stop" : 1657134351282,
+    "duration" : 2679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10bb5efbc235ce60",
+  "name" : "Успешный вход из окна восстановления пароля",
+  "time" : {
+    "start" : 1657134336456,
+    "stop" : 1657134338847,
+    "duration" : 2391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fabe18b9f5090de8",
+  "name" : "Успешный вход по кнопке 'Войти в аккаунт'",
+  "time" : {
+    "start" : 1657134333867,
+    "stop" : 1657134336452,
+    "duration" : 2585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "524d9f50e0cb76d",
+  "name" : "Переход в профиль из конструктора",
+  "time" : {
+    "start" : 1657134345728,
+    "stop" : 1657134348600,
+    "duration" : 2872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
